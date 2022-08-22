@@ -1,0 +1,103 @@
+{
+  "uid" : "56bd492a8f772017",
+  "name" : "test_userManage_giveadf[testcases_info2]",
+  "fullName" : "api.test_user.test_user.TestUser#test_userManage_giveadf",
+  "historyId" : "26232cbb18d2e6e6839d6188792915e1",
+  "time" : {
+    "start" : 1661160425872,
+    "stop" : 1661160425872,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 单个发放ADFun接口跳过",
+  "statusTrace" : "('E:\\\\aiduifen\\\\api\\\\test_user\\\\test_user.py', 32, 'Skipped: 单个发放ADFun接口跳过')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clean_extract",
+    "time" : {
+      "start" : 1661160424949,
+      "stop" : 1661160424949,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "program_login",
+    "time" : {
+      "start" : 1661160424949,
+      "stop" : 1661160425090,
+      "duration" : 141
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "爱兑分后台自动化接口项目"
+  }, {
+    "name" : "feature",
+    "value" : "用户管理模块测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('单个发放ADFun接口跳过')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api.test_user"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "XSOOY-PC"
+  }, {
+    "name" : "thread",
+    "value" : "11052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api.test_user.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "testcases_info",
+    "value" : "{'name': '发送两位小数：0.01adf', 'parameters': {'name-uid-amount-reason-assert1': 'data/userManage_giveadf.csv'}, 'request': {'method': 'post', 'url': '/superAdmin/user-manage/give-adfun', 'params': {'t': '{{t}}'}, 'data': {'uid': '143', 'amount': '0.01', 'reason': '发送两位小数'}}, 'validate': [{'equals': {'return_code': 'SUCCESS'}}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)", "@pytest.mark.skip('单个发放ADFun接口跳过')" ]
+  },
+  "source" : "56bd492a8f772017.json",
+  "parameterValues" : [ "{'name': '发送两位小数：0.01adf', 'parameters': {'name-uid-amount-reason-assert1': 'data/userManage_giveadf.csv'}, 'request': {'method': 'post', 'url': '/superAdmin/user-manage/give-adfun', 'params': {'t': '{{t}}'}, 'data': {'uid': '143', 'amount': '0.01', 'reason': '发送两位小数'}}, 'validate': [{'equals': {'return_code': 'SUCCESS'}}]}" ]
+}

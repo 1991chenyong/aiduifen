@@ -1,0 +1,9 @@
+[2022-08-22 17:27:05,097] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
+[2022-08-22 17:27:05,097] logger_util.py->write_log line:65 [INFO] 接口名称：导出接口用例
+[2022-08-22 17:27:05,098] logger_util.py->write_log line:65 [INFO] 请求头：None
+[2022-08-22 17:27:05,098] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/user-manage/query-user-list?isExport=1
+[2022-08-22 17:27:05,786] logger_util.py->write_log line:65 [INFO] ------------------返回的响应结果非字典类型，调用result_text_validatee方法断言-------------------
+[2022-08-22 17:27:05,850] logger_util.py->write_log line:65 [INFO] 预期结果：{'contains': '{"return_code":"SUCCESS","return_msg":null}'}
+[2022-08-22 17:27:05,850] logger_util.py->write_log line:65 [INFO] 接口执行成功
+[2022-08-22 17:27:05,850] logger_util.py->write_log line:65 [INFO] ------------------------接口请求结束-------------------------
+

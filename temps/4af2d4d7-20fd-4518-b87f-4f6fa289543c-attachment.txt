@@ -1,0 +1,8 @@
+INFO     logger:logger_util.py:65 ------------------------接口请求开始-------------------------
+INFO     logger:logger_util.py:65 接口名称：导出接口用例
+INFO     logger:logger_util.py:65 请求头：None
+INFO     logger:logger_util.py:65 请求路径：/superAdmin/user-manage/query-user-list?isExport=1
+INFO     logger:logger_util.py:65 ------------------返回的响应结果非字典类型，调用result_text_validatee方法断言-------------------
+INFO     logger:logger_util.py:65 预期结果：{'contains': '{"return_code":"SUCCESS","return_msg":null}'}
+INFO     logger:logger_util.py:65 接口执行成功
+INFO     logger:logger_util.py:65 ------------------------接口请求结束-------------------------

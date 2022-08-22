@@ -1,5 +1,4 @@
-temps
-reports
-logs
-.idea
-test.py
+/.idea/
+/reports/
+/temps/
+/.pytest_cache/

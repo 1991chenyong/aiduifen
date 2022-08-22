@@ -2,8 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9b067b4-2c0a-4709-bc48-771b4de7311a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.pytest_cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pytest_cache/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pytest_cache/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/stepwise" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/logs_2022.08.22.17.26.04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/logs_2022.08.22.17.26.40.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/logs_2022.08.22.17.27.05.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/1fece7867340faa6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/2c1eddbdb559c95.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/440582aa3af1f4fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/4607220b5fe2c765.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/56bd492a8f772017.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/5770afb35db0e216.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/94ce1c732d1ab4e5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/a8e475cceb474627.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/acc0888c8d1f6e81.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/c1771031e3221946.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/f9819406e6fc717e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/fdc5b05b45a16e9e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/ffa83d11b10d693f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/0023227d-a1cc-48c5-8a5b-52549f012f89-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/16f8958a-ca55-4dfb-bd6e-8fbf5d53d8b6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/18d410dd-cc28-4a91-810d-198c98bf6fd8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/2d784d8a-ad67-45cd-8f15-78f424b31559-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/4af2d4d7-20fd-4518-b87f-4f6fa289543c-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/52f76e15-d1af-45d9-b082-651a7cdea063-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/5652de9a-9772-4442-a210-c34fc396dd9b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/5e16a131-85cd-41d1-8b5b-0be8cdf879ed-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/78c011fa-d47c-442a-9193-d13994fdd874-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/7bbb088d-5375-4ef8-b72c-87613a74acd0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/8fdb7738-58e6-49ee-8f43-d3456dea4ecf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/91f99145-be2d-46c6-9636-017c1c27fd92-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/afa5fdd6-49e4-44c3-9bf9-d39d96d60de3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/b69e296b-f68c-4c9b-94c7-ce326373653d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/e5ce534a-06fc-4441-aca8-5e35f4e00adc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temps/eb0eeabc-8bb7-474c-af01-929c1687c630-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/send_email.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
