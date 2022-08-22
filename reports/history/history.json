@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cbd5b3887661ba86",
+      "uid" : "a8e475cceb474627",
       "status" : "skipped",
       "statusDetails" : "Skipped: 单个发放ADFun接口跳过",
       "time" : {
-        "start" : 1661156349158,
-        "stop" : 1661156349158,
+        "start" : 1661160425867,
+        "stop" : 1661160425867,
         "duration" : 0
       }
     } ]
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "40993098b40d5093",
+      "uid" : "acc0888c8d1f6e81",
       "status" : "skipped",
       "statusDetails" : "Skipped: 用户管理列表接口跳过",
       "time" : {
-        "start" : 1661156345932,
-        "stop" : 1661156345932,
+        "start" : 1661160424942,
+        "stop" : 1661160424942,
         "duration" : 0
       }
     } ]
@@ -49,32 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9b85cc60be26835e",
+      "uid" : "4607220b5fe2c765",
       "status" : "skipped",
       "statusDetails" : "Skipped: 批量上传adf接口跳过",
       "time" : {
-        "start" : 1661156349231,
-        "stop" : 1661156349231,
-        "duration" : 0
-      }
-    } ]
-  },
-  "b13cf7777b8c475dae61f23d6f2acea5" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2df34e8cb47d5fe5",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: 用户管理列表接口跳过",
-      "time" : {
-        "start" : 1661156345936,
-        "stop" : 1661156345936,
+        "start" : 1661160425877,
+        "stop" : 1661160425877,
         "duration" : 0
       }
     } ]
@@ -89,12 +69,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "250df57cd8251e35",
+      "uid" : "2c1eddbdb559c95",
       "status" : "skipped",
       "statusDetails" : "Skipped: 单个发放ADFun接口跳过",
       "time" : {
-        "start" : 1661156349220,
-        "stop" : 1661156349220,
+        "start" : 1661160425870,
+        "stop" : 1661160425870,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b13cf7777b8c475dae61f23d6f2acea5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffa83d11b10d693f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 用户管理列表接口跳过",
+      "time" : {
+        "start" : 1661160424946,
+        "stop" : 1661160424946,
         "duration" : 0
       }
     } ]
@@ -109,12 +109,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4364579e85ab5357",
+      "uid" : "440582aa3af1f4fa",
       "status" : "skipped",
       "statusDetails" : "Skipped: 用户管理列表接口跳过",
       "time" : {
-        "start" : 1661156345934,
-        "stop" : 1661156345934,
+        "start" : 1661160424944,
+        "stop" : 1661160424944,
         "duration" : 0
       }
     } ]
@@ -129,32 +129,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f78fde4219a877f7",
+      "uid" : "c1771031e3221946",
       "status" : "skipped",
       "statusDetails" : "Skipped: 批量上传adf接口跳过",
       "time" : {
-        "start" : 1661156349229,
-        "stop" : 1661156349229,
-        "duration" : 0
-      }
-    } ]
-  },
-  "1ade8d8ffd70a73f45ad1fc8258e5a30" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "dfe786f2883193fa",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: 用户管理列表接口跳过",
-      "time" : {
-        "start" : 1661156345930,
-        "stop" : 1661156345930,
+        "start" : 1661160425875,
+        "stop" : 1661160425875,
         "duration" : 0
       }
     } ]
@@ -169,12 +149,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "caf655aa1cda152d",
+      "uid" : "56bd492a8f772017",
       "status" : "skipped",
       "statusDetails" : "Skipped: 单个发放ADFun接口跳过",
       "time" : {
-        "start" : 1661156349223,
-        "stop" : 1661156349223,
+        "start" : 1661160425872,
+        "stop" : 1661160425872,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1ade8d8ffd70a73f45ad1fc8258e5a30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9819406e6fc717e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 用户管理列表接口跳过",
+      "time" : {
+        "start" : 1661160424940,
+        "stop" : 1661160424940,
         "duration" : 0
       }
     } ]
@@ -189,12 +189,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f8b6972468e8266a",
+      "uid" : "5770afb35db0e216",
       "status" : "passed",
       "time" : {
-        "start" : 1661156346164,
-        "stop" : 1661156349155,
-        "duration" : 2991
+        "start" : 1661160425091,
+        "stop" : 1661160425864,
+        "duration" : 773
       }
     } ]
   },
@@ -208,12 +208,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d4c6766f3121b188",
+      "uid" : "94ce1c732d1ab4e5",
       "status" : "skipped",
       "statusDetails" : "Skipped: 单个发放ADFun接口跳过",
       "time" : {
-        "start" : 1661156349226,
-        "stop" : 1661156349226,
+        "start" : 1661160425873,
+        "stop" : 1661160425873,
         "duration" : 0
       }
     } ]
@@ -228,12 +228,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "10705656e9b14934",
+      "uid" : "fdc5b05b45a16e9e",
       "status" : "skipped",
       "statusDetails" : "Skipped: 用户管理列表接口跳过",
       "time" : {
-        "start" : 1661156345844,
-        "stop" : 1661156345844,
+        "start" : 1661160424938,
+        "stop" : 1661160424938,
         "duration" : 0
       }
     } ]

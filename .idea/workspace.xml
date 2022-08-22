@@ -2,69 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9b067b4-2c0a-4709-bc48-771b4de7311a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/send_email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/extract.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/attachments/2ca9de7a24de1d9e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/attachments/67fe8d887f561ec3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/attachments/7d47738ff412d09c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/attachments/80cd542861aa9d5e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/attachments/ae42059e75887375.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all.py" beforeDir="false" afterPath="$PROJECT_DIR$/all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/attachments/81e960669b64afa1.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/behaviors.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/behaviors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/packages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/suites.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/1101f34c9c9b0913.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/171727fbd256fdd5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/2287f72089bddbaa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/27ceedc4034ab496.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/3c74051de33caee4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/51140e5ad1e99028.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/7b0c3b16925f1a2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/a6198f3d821ebb83.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/b058924909b2bc0c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/b4eb43d652a602c6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/b6b09bc43d45b60e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/ee73db0dc653d934.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/10705656e9b14934.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/250df57cd8251e35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/2df34e8cb47d5fe5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/40993098b40d5093.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/4364579e85ab5357.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/9b85cc60be26835e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/caf655aa1cda152d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/cbd5b3887661ba86.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/d4c6766f3121b188.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/dfe786f2883193fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/f78fde4219a877f7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/test-cases/f8b6972468e8266a.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports/export/influxDbData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports/export/prometheusData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/history.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/duration-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/severity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/027560d1-7916-48e2-9c50-1e3ec5b771ed-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/07aeb832-9889-4eac-a5b8-63326e00bf5b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/08a855ab-f9de-4182-a5b1-e1a36b27ac49-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/0f726e05-5bb0-4e81-9b61-09676d67797a-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/1197d214-3b26-466a-8417-2c94bb61c813-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/1385d711-6338-4f34-8d55-96c6463f4614-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/1f85485d-1e15-450a-857f-c83c1cd3753e-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/2b404c77-5704-4a1a-95bd-85db426734f0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/32000444-7aee-42e5-9fc4-06053b133ffa-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/3e96509f-1724-43b9-afa1-1e9ed3b9ebf6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/4f76a6de-f0c3-4617-af41-083725c037bf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/5fbc99b5-c559-48dd-9131-08af985088da-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/8bc6a298-4cee-447f-b6a2-0eee8b226951-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/8f773503-2c1b-4849-892f-7f2175f87184-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/912c5a63-8345-474d-8a91-8890536d24ab-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/9197b1d7-f49c-4e33-a61e-5019ec5d653e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/cb930f4e-a654-49df-bc84-1d111ea7f3b1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/cbb3c11f-f46e-403c-887b-90330aa604aa-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/ce3c960b-3c83-4835-8d1c-d3156c47468d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/ce772246-c0bc-4efb-8815-be2cbefbafd4-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/d444f05e-fd7b-40b5-a27a-cf6eae988e7e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/d6f8ab65-62bc-4167-9e28-cd26befd10ed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/f8d038c0-41e9-4d1d-822c-c1aa6586d0b9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temps/fbdf9852-e35f-4fd8-a8b9-5ca15a5d55c2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/userManage_export.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/userManage_export.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/018e5cff-916e-4e41-b347-a2f5bb87825c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/09d5fa66-df50-4f7d-a7e3-202171bcc222-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/09e3a04f-15a0-4355-a486-d2aac0e9d8d4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/0c96e557-5df0-43c3-8a26-05c18699c1de-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/0db7e628-c662-44c0-89f0-6f6d2655b2ac-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/1b8e19ac-9219-4c03-bf2a-b4bb2cbb3205-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/40bc3458-cbc2-4cd9-ab79-33a95bfd4a01-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/4934ce7b-1137-42f6-9d46-e6a1bb13908b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/791a2089-c0bd-4d2b-b554-b460825548b8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/a6497071-4cd9-4339-842f-db7387248459-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/ad6f61a4-7f2a-4e65-8707-748418a09cea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/ccff7dc4-4c1f-41c4-a84e-a1b68ba4e2bb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/d14704fe-69e0-438b-af86-96cc776a28ab-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/d5ae7b22-e1db-416d-8cc1-67983eafcc27-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/dd93164c-3f62-4fcb-bf6f-445feb3b2e02-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temps/e1230d26-dc43-4904-ba54-49cd567c6998-result.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +69,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="29JyRDcjTKG2Z6rsmh6b6JcifVS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -107,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.all">
+  <component name="RunManager" selected="Python.send_email">
     <configuration name="all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="aiduifen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,27 +110,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="common_unitl" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="aiduifen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="G:\aiduifen\common\common_util.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,6 +160,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="send_email" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="aiduifen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/send_email.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="aiduifen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,18 +204,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.all" />
-      <item itemvalue="Python.common_unitl" />
       <item itemvalue="Python.conftest" />
       <item itemvalue="Python.requests_util" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.send_email" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.send_email" />
         <item itemvalue="Python.all" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.requests_util" />
         <item itemvalue="Python.conftest" />
-        <item itemvalue="Python.common_unitl" />
       </list>
     </recent_temporary>
   </component>
