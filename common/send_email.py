@@ -18,8 +18,6 @@ def send_email(report_file):
         # 发送邮箱账号和密码（授权码）
         username = "775375798@qq.com"
         password = "hifffqldybkgbcgd"
-        # username = "xiesiqi@idouzi.com"
-        # password = "Tongdui8"
         # 读取测试报告文件
         mail_body = open(report_file, "r+", encoding="utf-8").read()
         # 定义邮件内容
