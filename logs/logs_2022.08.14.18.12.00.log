@@ -1,9 +1,0 @@
-[2022-08-14 18:12:00,599] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
-[2022-08-14 18:12:00,600] logger_util.py->write_log line:65 [INFO] 接口名称：$csv{name}
-[2022-08-14 18:12:00,600] logger_util.py->write_log line:65 [INFO] 请求头：None
-[2022-08-14 18:12:00,600] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/user-manage/query-user-list?isExport=1
-[2022-08-14 18:12:01,450] logger_util.py->write_log line:65 [INFO] ------------------返回的响应结果非字典类型，调用result_text_validatee方法断言-------------------
-[2022-08-14 18:12:01,515] logger_util.py->write_log line:65 [INFO] 预期结果：[{'contains': '{"return_code":"SUCCESS","return_msg":null}'}]
-[2022-08-14 18:12:01,515] logger_util.py->write_log line:65 [INFO] 接口执行成功
-[2022-08-14 18:12:01,515] logger_util.py->write_log line:65 [INFO] ------------------------接口请求结束-------------------------
-

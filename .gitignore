@@ -1,4 +1,4 @@
 /.idea/
 /reports/
 /temps/
-/.pytest_cache/
+/logs/
