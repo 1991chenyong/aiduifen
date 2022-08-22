@@ -1,0 +1,164 @@
+[2022-08-14 12:05:35,610] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
+[2022-08-14 12:05:35,611] logger_util.py->write_log line:65 [INFO] 接口名称：所有字段输入值搜索
+[2022-08-14 12:05:35,611] logger_util.py->write_log line:65 [INFO] 请求头：None
+[2022-08-14 12:05:35,611] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/points-mall-authorization/get-nft-manage-list
+[2022-08-14 12:05:35,611] logger_util.py->write_log line:65 [INFO] 接口替换前的请求数据：{'t': '{{t}}', 'searchKey': '13534083485', 'page': '0', 'pageSize': '20', 'registerChannel': 'app自然注册', 'checkType': 'lastPlayTime', 'startAt': '2022-05-10 00:00:00', 'endAt': '2022-06-09 23:59:59'}
+[2022-08-14 12:05:35,672] logger_util.py->write_log line:65 [INFO] ------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------
+[2022-08-14 12:05:35,673] logger_util.py->write_error_log line:69 [INFO] 分析yaml文件出错,异常信息：Traceback (most recent call last):
+  File "C:\Users\pc\aiduifen\lib\site-packages\requests\models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\Python37\lib\json\decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 44 (char 43)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\aiduifen\common\requests_util.py", line 139, in analysis_yaml
+    print('这是返回的数据' % res.json())
+  File "C:\Users\pc\aiduifen\lib\site-packages\requests\models.py", line 917, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: [Errno Extra data] {"return_code":"FAIL","return_msg":"GUEST"}{"return_code":"SUCCESS","return_msg":null}: 43
+
+[2022-08-14 12:05:35,763] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
+[2022-08-14 12:05:35,763] logger_util.py->write_log line:65 [INFO] 接口名称：注册渠道字段为空搜索
+[2022-08-14 12:05:35,763] logger_util.py->write_log line:65 [INFO] 请求头：None
+[2022-08-14 12:05:35,763] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/points-mall-authorization/get-nft-manage-list
+[2022-08-14 12:05:35,763] logger_util.py->write_log line:65 [INFO] 接口替换前的请求数据：{'t': '{{t}}', 'searchKey': '13534083485', 'page': '0', 'pageSize': '20', 'registerChannel': '', 'checkType': 'lastPlayTime', 'startAt': '2022-05-10 00:00:00', 'endAt': '2022-06-09 23:59:59'}
+[2022-08-14 12:05:35,804] logger_util.py->write_log line:65 [INFO] ------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------
+[2022-08-14 12:05:35,804] logger_util.py->write_error_log line:69 [INFO] 分析yaml文件出错,异常信息：Traceback (most recent call last):
+  File "C:\Users\pc\aiduifen\lib\site-packages\requests\models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\Python37\lib\json\decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 44 (char 43)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\aiduifen\common\requests_util.py", line 139, in analysis_yaml
+    print('这是返回的数据' % res.json())
+  File "C:\Users\pc\aiduifen\lib\site-packages\requests\models.py", line 917, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: [Errno Extra data] {"return_code":"FAIL","return_msg":"GUEST"}{"return_code":"SUCCESS","return_msg":null}: 43
+
+[2022-08-14 12:05:35,853] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
+[2022-08-14 12:05:35,853] logger_util.py->write_log line:65 [INFO] 接口名称：最近访问时间字段为空搜索
+[2022-08-14 12:05:35,853] logger_util.py->write_log line:65 [INFO] 请求头：None
+[2022-08-14 12:05:35,853] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/points-mall-authorization/get-nft-manage-list
+[2022-08-14 12:05:35,854] logger_util.py->write_log line:65 [INFO] 接口替换前的请求数据：{'t': '{{t}}', 'searchKey': '13534083485', 'page': '0', 'pageSize': '20', 'registerChannel': 'app自然注册', 'checkType': '', 'startAt': '', 'endAt': ''}
+[2022-08-14 12:05:35,887] logger_util.py->write_log line:65 [INFO] ------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------
+[2022-08-14 12:05:35,888] logger_util.py->write_error_log line:69 [INFO] 分析yaml文件出错,异常信息：Traceback (most recent call last):
+  File "C:\Users\pc\aiduifen\lib\site-packages\requests\models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\Python37\lib\json\decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 44 (char 43)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\aiduifen\common\requests_util.py", line 139, in analysis_yaml
+    print('这是返回的数据' % res.json())
+  File "C:\Users\pc\aiduifen\lib\site-packages\requests\models.py", line 917, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: [Errno Extra data] {"return_code":"FAIL","return_msg":"GUEST"}{"return_code":"SUCCESS","return_msg":null}: 43
+
+[2022-08-14 12:05:35,937] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
+[2022-08-14 12:05:35,937] logger_util.py->write_log line:65 [INFO] 接口名称：关键词搜索字段为空搜索
+[2022-08-14 12:05:35,937] logger_util.py->write_log line:65 [INFO] 请求头：None
+[2022-08-14 12:05:35,937] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/points-mall-authorization/get-nft-manage-list
+[2022-08-14 12:05:35,937] logger_util.py->write_log line:65 [INFO] 接口替换前的请求数据：{'t': '{{t}}', 'searchKey': '', 'page': '0', 'pageSize': '20', 'registerChannel': 'app自然注册', 'checkType': 'lastPlayTime', 'startAt': '2022-05-10 00:00:00', 'endAt': '2022-06-09 23:59:59'}
+[2022-08-14 12:05:35,979] logger_util.py->write_log line:65 [INFO] ------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------
+[2022-08-14 12:05:35,980] logger_util.py->write_error_log line:69 [INFO] 分析yaml文件出错,异常信息：Traceback (most recent call last):
+  File "C:\Users\pc\aiduifen\lib\site-packages\requests\models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\Python37\lib\json\decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 44 (char 43)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\aiduifen\common\requests_util.py", line 139, in analysis_yaml
+    print('这是返回的数据' % res.json())
+  File "C:\Users\pc\aiduifen\lib\site-packages\requests\models.py", line 917, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: [Errno Extra data] {"return_code":"FAIL","return_msg":"GUEST"}{"return_code":"SUCCESS","return_msg":null}: 43
+
+[2022-08-14 12:05:36,023] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
+[2022-08-14 12:05:36,023] logger_util.py->write_log line:65 [INFO] 接口名称：所有字段为空搜索
+[2022-08-14 12:05:36,023] logger_util.py->write_log line:65 [INFO] 请求头：None
+[2022-08-14 12:05:36,023] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/points-mall-authorization/get-nft-manage-list
+[2022-08-14 12:05:36,023] logger_util.py->write_log line:65 [INFO] 接口替换前的请求数据：{'t': '{{t}}', 'searchKey': '', 'page': '', 'pageSize': '', 'registerChannel': '', 'checkType': '', 'startAt': '', 'endAt': ''}
+[2022-08-14 12:05:36,056] logger_util.py->write_log line:65 [INFO] ------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------
+[2022-08-14 12:05:36,057] logger_util.py->write_error_log line:69 [INFO] 分析yaml文件出错,异常信息：Traceback (most recent call last):
+  File "C:\Users\pc\aiduifen\lib\site-packages\requests\models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\Python37\lib\json\decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 44 (char 43)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\aiduifen\common\requests_util.py", line 139, in analysis_yaml
+    print('这是返回的数据' % res.json())
+  File "C:\Users\pc\aiduifen\lib\site-packages\requests\models.py", line 917, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: [Errno Extra data] {"return_code":"FAIL","return_msg":"GUEST"}{"return_code":"SUCCESS","return_msg":null}: 43
+
+[2022-08-14 12:05:36,111] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
+[2022-08-14 12:05:36,111] logger_util.py->write_log line:65 [INFO] 接口名称：发送整数：1adf
+[2022-08-14 12:05:36,111] logger_util.py->write_log line:65 [INFO] 请求头：None
+[2022-08-14 12:05:36,111] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/user-manage/give-adfun
+[2022-08-14 12:05:36,111] logger_util.py->write_log line:65 [INFO] 接口替换前的请求数据：{'uid': '143', 'amount': '1', 'reason': '测试发放整数'}
+[2022-08-14 12:05:37,062] logger_util.py->write_log line:65 [INFO] ------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------
+[2022-08-14 12:05:37,062] logger_util.py->write_log line:65 [INFO] 预期结果：[{'equals': {'return_code': 'SUCCESS'}}]
+[2022-08-14 12:05:37,062] logger_util.py->write_log line:65 [INFO] 实际结果：{'return_code': 'SUCCESS', 'return_msg': '2208141205361865151974'}
+[2022-08-14 12:05:37,062] logger_util.py->write_log line:65 [INFO] 接口执行成功
+[2022-08-14 12:05:37,062] logger_util.py->write_log line:65 [INFO] ------------------------接口请求结束-------------------------
+
+[2022-08-14 12:05:37,068] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
+[2022-08-14 12:05:37,068] logger_util.py->write_log line:65 [INFO] 接口名称：发送一位小数：0.1adf
+[2022-08-14 12:05:37,068] logger_util.py->write_log line:65 [INFO] 请求头：None
+[2022-08-14 12:05:37,068] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/user-manage/give-adfun
+[2022-08-14 12:05:37,069] logger_util.py->write_log line:65 [INFO] 接口替换前的请求数据：{'uid': '143', 'amount': '0.1', 'reason': '发送一位小数'}
+[2022-08-14 12:05:37,712] logger_util.py->write_log line:65 [INFO] ------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------
+[2022-08-14 12:05:37,712] logger_util.py->write_log line:65 [INFO] 预期结果：[{'equals': {'return_code': 'SUCCESS'}}]
+[2022-08-14 12:05:37,712] logger_util.py->write_log line:65 [INFO] 实际结果：{'return_code': 'SUCCESS', 'return_msg': '2208141205370995151765'}
+[2022-08-14 12:05:37,712] logger_util.py->write_log line:65 [INFO] 接口执行成功
+[2022-08-14 12:05:37,712] logger_util.py->write_log line:65 [INFO] ------------------------接口请求结束-------------------------
+
+[2022-08-14 12:05:37,718] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
+[2022-08-14 12:05:37,718] logger_util.py->write_log line:65 [INFO] 接口名称：发送两位小数：0.01adf
+[2022-08-14 12:05:37,718] logger_util.py->write_log line:65 [INFO] 请求头：None
+[2022-08-14 12:05:37,718] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/user-manage/give-adfun
+[2022-08-14 12:05:37,718] logger_util.py->write_log line:65 [INFO] 接口替换前的请求数据：{'uid': '143', 'amount': '0.01', 'reason': '发送两位小数'}
+[2022-08-14 12:05:38,524] logger_util.py->write_log line:65 [INFO] ------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------
+[2022-08-14 12:05:38,524] logger_util.py->write_log line:65 [INFO] 预期结果：[{'equals': {'return_code': 'SUCCESS'}}]
+[2022-08-14 12:05:38,524] logger_util.py->write_log line:65 [INFO] 实际结果：{'return_code': 'SUCCESS', 'return_msg': '2208141205377275151979'}
+[2022-08-14 12:05:38,524] logger_util.py->write_log line:65 [INFO] 接口执行成功
+[2022-08-14 12:05:38,524] logger_util.py->write_log line:65 [INFO] ------------------------接口请求结束-------------------------
+
+[2022-08-14 12:05:38,530] logger_util.py->write_log line:65 [INFO] ------------------------接口请求开始-------------------------
+[2022-08-14 12:05:38,530] logger_util.py->write_log line:65 [INFO] 接口名称：发送数据为空
+[2022-08-14 12:05:38,531] logger_util.py->write_log line:65 [INFO] 请求头：None
+[2022-08-14 12:05:38,531] logger_util.py->write_log line:65 [INFO] 请求路径：/superAdmin/user-manage/give-adfun
+[2022-08-14 12:05:38,531] logger_util.py->write_log line:65 [INFO] 接口替换前的请求数据：{'uid': '143', 'amount': '', 'reason': '发送两位小数'}
+[2022-08-14 12:05:38,729] logger_util.py->write_log line:65 [INFO] ------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------
+[2022-08-14 12:05:38,729] logger_util.py->write_log line:65 [INFO] 预期结果：[{'equals': {'return_code': 'FAIL'}}]
+[2022-08-14 12:05:38,729] logger_util.py->write_log line:65 [INFO] 实际结果：{'return_code': 'FAIL', 'return_msg': 'Amount不能为空。'}
+[2022-08-14 12:05:38,730] logger_util.py->write_log line:65 [INFO] 接口执行成功
+[2022-08-14 12:05:38,730] logger_util.py->write_log line:65 [INFO] ------------------------接口请求结束-------------------------
+

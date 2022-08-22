@@ -1,0 +1,237 @@
+{
+  "7064369f07b753b43b2d0b88b7cf8a0d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27ceedc4034ab496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660472454761,
+        "stop" : 1660472455301,
+        "duration" : 540
+      }
+    } ]
+  },
+  "eeb62177221c75fb7bdb4b46ccba8597" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6198f3d821ebb83",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 批量上传adf接口跳过",
+      "time" : {
+        "start" : 1660472456494,
+        "stop" : 1660472456494,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cdc4c5469f769a612d81e2c1fdcc83ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b0c3b16925f1a2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 用户管理列表接口跳过",
+      "time" : {
+        "start" : 1660472453551,
+        "stop" : 1660472453551,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b13cf7777b8c475dae61f23d6f2acea5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1101f34c9c9b0913",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 用户管理列表接口跳过",
+      "time" : {
+        "start" : 1660472453556,
+        "stop" : 1660472453556,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a88a31f49cfa321ed2b75c39f1312d16" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51140e5ad1e99028",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660472455305,
+        "stop" : 1660472455828,
+        "duration" : 523
+      }
+    } ]
+  },
+  "ed8b3f5f86f35eb5e101f442bc0ef372" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c74051de33caee4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 批量上传adf接口跳过",
+      "time" : {
+        "start" : 1660472456492,
+        "stop" : 1660472456492,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ac4b3485e24a59601ba0a6c7445ecf94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2287f72089bddbaa",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 用户管理列表接口跳过",
+      "time" : {
+        "start" : 1660472453554,
+        "stop" : 1660472453554,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1ade8d8ffd70a73f45ad1fc8258e5a30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b058924909b2bc0c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 用户管理列表接口跳过",
+      "time" : {
+        "start" : 1660472453549,
+        "stop" : 1660472453549,
+        "duration" : 0
+      }
+    } ]
+  },
+  "26232cbb18d2e6e6839d6188792915e1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee73db0dc653d934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660472455832,
+        "stop" : 1660472456344,
+        "duration" : 512
+      }
+    } ]
+  },
+  "2260f72ed5908ebdc8adddf356781ec9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4eb43d652a602c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660472453743,
+        "stop" : 1660472454757,
+        "duration" : 1014
+      }
+    } ]
+  },
+  "10e2d2b5ad8a1d6b29280300807ed930" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6b09bc43d45b60e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660472456348,
+        "stop" : 1660472456482,
+        "duration" : 134
+      }
+    } ]
+  },
+  "a60f39e71a1f16a26703940c66cafeda" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "171727fbd256fdd5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 用户管理列表接口跳过",
+      "time" : {
+        "start" : 1660472453546,
+        "stop" : 1660472453546,
+        "duration" : 0
+      }
+    } ]
+  }
+}

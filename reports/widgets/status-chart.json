@@ -1,0 +1,121 @@
+[ {
+  "uid" : "27ceedc4034ab496",
+  "name" : "发送整数：1adf",
+  "time" : {
+    "start" : 1660472454761,
+    "stop" : 1660472455301,
+    "duration" : 540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51140e5ad1e99028",
+  "name" : "发送一位小数：0.1adf",
+  "time" : {
+    "start" : 1660472455305,
+    "stop" : 1660472455828,
+    "duration" : 523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1101f34c9c9b0913",
+  "name" : "test_userManage[testcases_info4]",
+  "time" : {
+    "start" : 1660472453556,
+    "stop" : 1660472453556,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3c74051de33caee4",
+  "name" : "test_userManage_load_adf[testcases_info0]",
+  "time" : {
+    "start" : 1660472456492,
+    "stop" : 1660472456492,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b4eb43d652a602c6",
+  "name" : "$csv{name}",
+  "time" : {
+    "start" : 1660472453743,
+    "stop" : 1660472454757,
+    "duration" : 1014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b058924909b2bc0c",
+  "name" : "test_userManage[testcases_info1]",
+  "time" : {
+    "start" : 1660472453549,
+    "stop" : 1660472453549,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2287f72089bddbaa",
+  "name" : "test_userManage[testcases_info3]",
+  "time" : {
+    "start" : 1660472453554,
+    "stop" : 1660472453554,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ee73db0dc653d934",
+  "name" : "发送两位小数：0.01adf",
+  "time" : {
+    "start" : 1660472455832,
+    "stop" : 1660472456344,
+    "duration" : 512
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "171727fbd256fdd5",
+  "name" : "test_userManage[testcases_info0]",
+  "time" : {
+    "start" : 1660472453546,
+    "stop" : 1660472453546,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b6b09bc43d45b60e",
+  "name" : "发送数据为空",
+  "time" : {
+    "start" : 1660472456348,
+    "stop" : 1660472456482,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b0c3b16925f1a2",
+  "name" : "test_userManage[testcases_info2]",
+  "time" : {
+    "start" : 1660472453551,
+    "stop" : 1660472453551,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a6198f3d821ebb83",
+  "name" : "test_userManage_load_adf[testcases_info1]",
+  "time" : {
+    "start" : 1660472456494,
+    "stop" : 1660472456494,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

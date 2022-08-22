@@ -1,0 +1,106 @@
+{
+  "uid" : "1101f34c9c9b0913",
+  "name" : "test_userManage[testcases_info4]",
+  "fullName" : "api.test_user.test_user.TestUser#test_userManage",
+  "historyId" : "b13cf7777b8c475dae61f23d6f2acea5",
+  "time" : {
+    "start" : 1660472453556,
+    "stop" : 1660472453556,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 用户管理列表接口跳过",
+  "statusTrace" : "('C:\\\\Users\\\\pc\\\\Desktop\\\\aiduifen\\\\api\\\\test_user\\\\test_user.py', 16, 'Skipped: 用户管理列表接口跳过')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clean_extract",
+    "time" : {
+      "start" : 1660472453559,
+      "stop" : 1660472453559,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "program_login",
+    "time" : {
+      "start" : 1660472453559,
+      "stop" : 1660472453743,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "爱兑分后台自动化接口项目"
+  }, {
+    "name" : "story",
+    "value" : "用例管理列表搜索功能测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "用户管理模块测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('用户管理列表接口跳过')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api.test_user"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "XSOOY-PC"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api.test_user.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "testcases_info",
+    "value" : "{'name': '所有字段为空搜索', 'parameters': {'name-searchKey-page-pageSize-registerChannel-checkType-startAt-endAt': 'data/userManage_search.csv'}, 'request': {'method': 'GET', 'url': '/superAdmin/points-mall-authorization/get-nft-manage-list', 'params': {'t': '{{t}}'}, 'data': {'searchKey': '', 'page': '', 'pageSize': '', 'registerChannel': '', 'checkType': '', 'startAt': '', 'endAt': ''}}, 'validate': [{'equals': {'status_code': 200}}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "@pytest.mark.skip('用户管理列表接口跳过')" ]
+  },
+  "source" : "1101f34c9c9b0913.json",
+  "parameterValues" : [ "{'name': '所有字段为空搜索', 'parameters': {'name-searchKey-page-pageSize-registerChannel-checkType-startAt-endAt': 'data/userManage_search.csv'}, 'request': {'method': 'GET', 'url': '/superAdmin/points-mall-authorization/get-nft-manage-list', 'params': {'t': '{{t}}'}, 'data': {'searchKey': '', 'page': '', 'pageSize': '', 'registerChannel': '', 'checkType': '', 'startAt': '', 'endAt': ''}}, 'validate': [{'equals': {'status_code': 200}}]}" ]
+}

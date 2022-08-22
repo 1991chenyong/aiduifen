@@ -1,0 +1,165 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "api.test_user.test_user",
+    "children" : [ {
+      "name" : "test_userManage[testcases_info0]",
+      "uid" : "171727fbd256fdd5",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1660472453546,
+        "stop" : 1660472453546,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '所有字段输入值搜索', 'parameters': {'name-searchKey-page-pageSize-registerChannel-checkType-startAt-endAt': 'data/userManage_search.csv'}, 'request': {'method': 'GET', 'url': '/superAdmin/points-mall-authorization/get-nft-manage-list', 'params': {'t': '{{t}}'}, 'data': {'searchKey': '13534083485', 'page': '0', 'pageSize': '20', 'registerChannel': 'app自然注册', 'checkType': 'lastPlayTime', 'startAt': '2022-05-10 00:00:00', 'endAt': '2022-06-09 23:59:59'}}, 'validate': [{'equals': {'status_code': 200}}]}" ]
+    }, {
+      "name" : "test_userManage[testcases_info1]",
+      "uid" : "b058924909b2bc0c",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1660472453549,
+        "stop" : 1660472453549,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '注册渠道字段为空搜索', 'parameters': {'name-searchKey-page-pageSize-registerChannel-checkType-startAt-endAt': 'data/userManage_search.csv'}, 'request': {'method': 'GET', 'url': '/superAdmin/points-mall-authorization/get-nft-manage-list', 'params': {'t': '{{t}}'}, 'data': {'searchKey': '13534083485', 'page': '0', 'pageSize': '20', 'registerChannel': '', 'checkType': 'lastPlayTime', 'startAt': '2022-05-10 00:00:00', 'endAt': '2022-06-09 23:59:59'}}, 'validate': [{'equals': {'status_code': 200}}]}" ]
+    }, {
+      "name" : "test_userManage[testcases_info2]",
+      "uid" : "7b0c3b16925f1a2",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1660472453551,
+        "stop" : 1660472453551,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '最近访问时间字段为空搜索', 'parameters': {'name-searchKey-page-pageSize-registerChannel-checkType-startAt-endAt': 'data/userManage_search.csv'}, 'request': {'method': 'GET', 'url': '/superAdmin/points-mall-authorization/get-nft-manage-list', 'params': {'t': '{{t}}'}, 'data': {'searchKey': '13534083485', 'page': '0', 'pageSize': '20', 'registerChannel': 'app自然注册', 'checkType': '', 'startAt': '', 'endAt': ''}}, 'validate': [{'equals': {'status_code': 200}}]}" ]
+    }, {
+      "name" : "test_userManage[testcases_info3]",
+      "uid" : "2287f72089bddbaa",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1660472453554,
+        "stop" : 1660472453554,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '关键词搜索字段为空搜索', 'parameters': {'name-searchKey-page-pageSize-registerChannel-checkType-startAt-endAt': 'data/userManage_search.csv'}, 'request': {'method': 'GET', 'url': '/superAdmin/points-mall-authorization/get-nft-manage-list', 'params': {'t': '{{t}}'}, 'data': {'searchKey': '', 'page': '0', 'pageSize': '20', 'registerChannel': 'app自然注册', 'checkType': 'lastPlayTime', 'startAt': '2022-05-10 00:00:00', 'endAt': '2022-06-09 23:59:59'}}, 'validate': [{'equals': {'status_code': 200}}]}" ]
+    }, {
+      "name" : "test_userManage[testcases_info4]",
+      "uid" : "1101f34c9c9b0913",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1660472453556,
+        "stop" : 1660472453556,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '所有字段为空搜索', 'parameters': {'name-searchKey-page-pageSize-registerChannel-checkType-startAt-endAt': 'data/userManage_search.csv'}, 'request': {'method': 'GET', 'url': '/superAdmin/points-mall-authorization/get-nft-manage-list', 'params': {'t': '{{t}}'}, 'data': {'searchKey': '', 'page': '', 'pageSize': '', 'registerChannel': '', 'checkType': '', 'startAt': '', 'endAt': ''}}, 'validate': [{'equals': {'status_code': 200}}]}" ]
+    }, {
+      "name" : "$csv{name}",
+      "uid" : "b4eb43d652a602c6",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660472453743,
+        "stop" : 1660472454757,
+        "duration" : 1014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '$csv{name}', 'request': {'method': 'GET', 'url': '/superAdmin/user-manage/query-user-list?isExport=1', 'params': {'t': '{{t}}', 'isExport': 1}}, 'response_type': 'text', 'validate': {'contains': '{\"return_code\":\"SUCCESS\",\"return_msg\":null}'}}" ]
+    }, {
+      "name" : "发送整数：1adf",
+      "uid" : "27ceedc4034ab496",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660472454761,
+        "stop" : 1660472455301,
+        "duration" : 540
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '发送整数：1adf', 'parameters': {'name-uid-amount-reason-assert1': 'data/userManage_giveadf.csv'}, 'request': {'method': 'post', 'url': '/superAdmin/user-manage/give-adfun', 'params': {'t': '{{t}}'}, 'data': {'uid': '143', 'amount': '1', 'reason': '测试发放整数'}}, 'validate': [{'equals': {'return_code': 'SUCCESS'}}]}" ]
+    }, {
+      "name" : "发送一位小数：0.1adf",
+      "uid" : "51140e5ad1e99028",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660472455305,
+        "stop" : 1660472455828,
+        "duration" : 523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '发送一位小数：0.1adf', 'parameters': {'name-uid-amount-reason-assert1': 'data/userManage_giveadf.csv'}, 'request': {'method': 'post', 'url': '/superAdmin/user-manage/give-adfun', 'params': {'t': '{{t}}'}, 'data': {'uid': '143', 'amount': '0.1', 'reason': '发送一位小数'}}, 'validate': [{'equals': {'return_code': 'SUCCESS'}}]}" ]
+    }, {
+      "name" : "发送两位小数：0.01adf",
+      "uid" : "ee73db0dc653d934",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660472455832,
+        "stop" : 1660472456344,
+        "duration" : 512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '发送两位小数：0.01adf', 'parameters': {'name-uid-amount-reason-assert1': 'data/userManage_giveadf.csv'}, 'request': {'method': 'post', 'url': '/superAdmin/user-manage/give-adfun', 'params': {'t': '{{t}}'}, 'data': {'uid': '143', 'amount': '0.01', 'reason': '发送两位小数'}}, 'validate': [{'equals': {'return_code': 'SUCCESS'}}]}" ]
+    }, {
+      "name" : "发送数据为空",
+      "uid" : "b6b09bc43d45b60e",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660472456348,
+        "stop" : 1660472456482,
+        "duration" : 134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '发送数据为空', 'parameters': {'name-uid-amount-reason-assert1': 'data/userManage_giveadf.csv'}, 'request': {'method': 'post', 'url': '/superAdmin/user-manage/give-adfun', 'params': {'t': '{{t}}'}, 'data': {'uid': '143', 'amount': '', 'reason': '发送两位小数'}}, 'validate': [{'equals': {'return_code': 'FAIL'}}]}" ]
+    }, {
+      "name" : "test_userManage_load_adf[testcases_info0]",
+      "uid" : "3c74051de33caee4",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1660472456492,
+        "stop" : 1660472456492,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '批量发放adf-上传文件', 'request': {'method': 'POST', 'url': '/superAdmin/user-manage/upload-adf', 'params': {'t': '{{t}}'}, 'files': {'file': 'data/UploadADFun.xlsx'}, 'data': {'async': 1}}, 'extract': {'taskId': '{\"taskId\":(.+?),'}, 'validate': [{'equals': {'return_code': 'SUCCESS'}}]}" ]
+    }, {
+      "name" : "test_userManage_load_adf[testcases_info1]",
+      "uid" : "a6198f3d821ebb83",
+      "parentUid" : "13407e5dcf48d06c2c957a83d4097ad1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1660472456494,
+        "stop" : 1660472456494,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '批量发放adf-提交', 'request': {'method': 'POST', 'url': '/superAdmin/user-manage/grant-adf-confirm', 'params': {'t': '{{t}}'}, 'data': {'taskId': '{{taskId}}'}}, 'validate': [{'equals': {'return_code': 'SUCCESS'}}]}" ]
+    } ],
+    "uid" : "api.test_user.test_user"
+  } ]
+}

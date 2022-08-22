@@ -1,0 +1,19 @@
+- name: "$csv{name}"
+  parameters:
+    name-searchKey-page-pageSize-registerChannel-checkType-startAt-endAt: "data/userManage_search.csv"
+  request:
+    method: GET
+    url: /superAdmin/points-mall-authorization/get-nft-manage-list
+    params: {"t": "{{t}}"}
+    data:
+      {
+        "searchKey": "$csv{searchKey}",
+        "page": "$csv{page}",
+        "pageSize": "$csv{pageSize}",
+        "registerChannel": "$csv{registerChannel}",
+        "checkType": "$csv{checkType}",
+        "startAt": "$csv{startAt}",
+        "endAt": "$csv{endAt}"
+      }
+  validate:
+    - equals: {status_code: 200}

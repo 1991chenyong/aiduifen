@@ -1,0 +1,10 @@
+INFO     logger:logger_util.py:65 ------------------------接口请求开始-------------------------
+INFO     logger:logger_util.py:65 接口名称：发送整数：1adf
+INFO     logger:logger_util.py:65 请求头：None
+INFO     logger:logger_util.py:65 请求路径：/superAdmin/user-manage/give-adfun
+INFO     logger:logger_util.py:65 接口替换前的请求数据：{'uid': '143', 'amount': '1', 'reason': '测试发放整数'}
+INFO     logger:logger_util.py:65 ------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------
+INFO     logger:logger_util.py:65 预期结果：[{'equals': {'return_code': 'SUCCESS'}}]
+INFO     logger:logger_util.py:65 实际结果：{'return_code': 'SUCCESS', 'return_msg': '2208141820543365151315'}
+INFO     logger:logger_util.py:65 接口执行成功
+INFO     logger:logger_util.py:65 ------------------------接口请求结束-------------------------
