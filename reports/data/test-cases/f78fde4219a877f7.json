@@ -1,0 +1,106 @@
+{
+  "uid" : "f78fde4219a877f7",
+  "name" : "test_userManage_load_adf[testcases_info0]",
+  "fullName" : "api.test_user.test_user.TestUser#test_userManage_load_adf",
+  "historyId" : "ed8b3f5f86f35eb5e101f442bc0ef372",
+  "time" : {
+    "start" : 1661156349229,
+    "stop" : 1661156349229,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 批量上传adf接口跳过",
+  "statusTrace" : "('E:\\\\aiduifen\\\\api\\\\test_user\\\\test_user.py', 39, 'Skipped: 批量上传adf接口跳过')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clean_extract",
+    "time" : {
+      "start" : 1661156345939,
+      "stop" : 1661156345940,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "program_login",
+    "time" : {
+      "start" : 1661156345940,
+      "stop" : 1661156346163,
+      "duration" : 223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理模块测试"
+  }, {
+    "name" : "story",
+    "value" : "批量上传adf接口"
+  }, {
+    "name" : "epic",
+    "value" : "爱兑分后台自动化接口项目"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('批量上传adf接口跳过')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api.test_user"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "XSOOY-PC"
+  }, {
+    "name" : "thread",
+    "value" : "12428-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api.test_user.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "testcases_info",
+    "value" : "{'name': '批量发放adf-上传文件', 'request': {'method': 'POST', 'url': '/superAdmin/user-manage/upload-adf', 'params': {'t': '{{t}}'}, 'files': {'file': 'data/UploadADFun.xlsx'}, 'data': {'async': 1}}, 'extract': {'taskId': '{\"taskId\":(.+?),'}, 'validate': [{'equals': {'return_code': 'SUCCESS'}}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)", "@pytest.mark.skip('批量上传adf接口跳过')" ]
+  },
+  "source" : "f78fde4219a877f7.json",
+  "parameterValues" : [ "{'name': '批量发放adf-上传文件', 'request': {'method': 'POST', 'url': '/superAdmin/user-manage/upload-adf', 'params': {'t': '{{t}}'}, 'files': {'file': 'data/UploadADFun.xlsx'}, 'data': {'async': 1}}, 'extract': {'taskId': '{\"taskId\":(.+?),'}, 'validate': [{'equals': {'return_code': 'SUCCESS'}}]}" ]
+}

@@ -1,4 +1,4 @@
-- name: "$csv{name}"
+- name: "导出接口用例"
   request:
     method: GET
     url: /superAdmin/user-manage/query-user-list?isExport=1
