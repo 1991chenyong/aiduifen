@@ -1,4 +1,10 @@
 [
+  "api/test_marketManage/test_banner.py::TestUser::test_create_banenr[testcases_info0]",
+  "api/test_marketManage/test_banner.py::TestUser::test_create_banenr[testcases_info1]",
+  "api/test_marketManage/test_banner.py::TestUser::test_create_banenr[testcases_info2]",
+  "api/test_marketManage/test_banner.py::TestUser::test_create_banenr[testcases_info3]",
+  "api/test_marketManage/test_banner.py::TestUser::test_get_banenr[testcases_info0]",
+  "api/test_marketManage/test_banner.py::TestUser::test_search_banenr[testcases_info0]",
   "api/test_user/test_user.py::TestUser::test_user",
   "api/test_user/test_user.py::TestUser::test_userManage[testcases_info0]",
   "api/test_user/test_user.py::TestUser::test_userManage[testcases_info1]",
