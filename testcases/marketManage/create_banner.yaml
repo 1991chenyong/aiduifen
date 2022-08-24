@@ -1,0 +1,21 @@
+- name: "新建banner接口：$csv{title}"
+  parameters:
+    title-belongApp-bannerStatus-bannerOrder-appVersion-jumpType-loginStatus-imageUrl-url: "data/create_banner.csv"
+  request:
+    method: POST
+    url: /superAdmin/banner-manager/save-banner-row
+    params: {"t": "{{t}}"}
+    data:
+      {
+        "title": "$csv{title}",
+        "belongApp": "$csv{belongApp}",
+        "bannerStatus": "$csv{bannerStatus}",
+        "bannerOrder": "$csv{bannerOrder}",
+        "appVersion": "$csv{appVersion}",
+        "jumpType": "$csv{jumpType}",
+        "loginStatus": "$csv{loginStatus}",
+        "imageUrl": "$csv{imageUrl}",
+        "url": "$csv{url}"
+      }
+  validate:
+    - equals: {return_code: "SUCCESS"}

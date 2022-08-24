@@ -1,0 +1,27 @@
+- name: "批量发放adf-上传文件"
+  request:
+    method: POST
+    url: /superAdmin/user-manage/upload-adf
+    params: {"t": "{{t}}"}
+    files:
+      file: "data/UploadADFun.xlsx"
+    data:
+      {
+        "async": 1
+      }
+  extract:
+      taskId: '{"taskId":(.+?),'
+  validate:
+    - equals: {return_code: "SUCCESS"}
+
+- name: "批量发放adf-提交"
+  request:
+    method: POST
+    url: /superAdmin/user-manage/grant-adf-confirm
+    params: {"t": "{{t}}"}
+    data:
+      {
+        "taskId": "{{taskId}}"
+      }
+  validate:
+    - equals: {return_code: "SUCCESS"}

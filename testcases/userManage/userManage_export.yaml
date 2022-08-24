@@ -1,0 +1,11 @@
+- name: "$csv{name}"
+  request:
+    method: GET
+    url: /superAdmin/user-manage/query-user-list?isExport=1
+    params: {
+      "t": "{{t}}",
+      "isExport": 1
+      }
+  response_type: text
+  validate:
+    contains: '{"return_code":"SUCCESS","return_msg":null}'

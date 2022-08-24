@@ -1,0 +1,7 @@
+- name: "搜索banner接口"
+  request:
+    method: GET
+    url: /superAdmin/banner-manager/get-banner-list
+    params: {"t": "{{t}}"}
+  validate:
+    - equals: {return_code: "SUCCESS"}

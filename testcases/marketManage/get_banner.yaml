@@ -1,0 +1,7 @@
+- name: "进入创建banner页面接口"
+  request:
+    method: GET
+    url: /superAdmin/banner-manager/get-banner-conf
+    params: {"t": "{{t}}"}
+  validate:
+    - equals: {return_code: "SUCCESS"}
