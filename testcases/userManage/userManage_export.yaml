@@ -1,4 +1,4 @@
-- name: "$csv{name}"
+- name: "测试用例管理列表导出接口"
   request:
     method: GET
     url: /superAdmin/user-manage/query-user-list?isExport=1

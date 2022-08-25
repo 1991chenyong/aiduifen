@@ -36,9 +36,9 @@ class TestUser:
         allure.dynamic.title(testcases_info["name"])
         RequestUtil().analysis_yaml(testcases_info)
 
-    # @pytest.mark.skip("搜索banner接口跳过")
+    @pytest.mark.skip("搜索banner接口跳过")
     @allure.story("搜索banner功能测试用例")
-    @pytest.mark.run(order=2)
+    @pytest.mark.run(order=3)
     @pytest.mark.parametrize('testcases_info', read_testcase_yaml('testcases/marketManage/search_banner.yaml'))
     def test_search_banenr(self, testcases_info):
         allure.dynamic.title(testcases_info["name"])
