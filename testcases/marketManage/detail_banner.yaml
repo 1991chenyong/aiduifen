@@ -1,0 +1,9 @@
+- name: 编辑标签接口
+  parameters:
+    id: 'data/detail_banner.csv'
+  request:
+    method: GET
+    url: /superAdmin/banner-manager/get-banner-detail
+    params: {"t": "{{t}}", "id": "$csv{id}"}
+  validate:
+    - equals: {return_code: "SUCCESS"}

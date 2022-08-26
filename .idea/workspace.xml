@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f322339-ee6f-4de7-add5-6f5ae1600bee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/aiduifen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aiduifen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detail_banner.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/marketManage_del_banner.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/marketManage/del_banner.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/marketManage/detail_banner.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/marketManage/edit_banner.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/test_marketManage/test_banner.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/test_marketManage/test_banner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/test_user/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/test_user/test_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/requests_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/requests_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/create_banner.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/create_banner.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extract.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/extract.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/userManage/userManage_export.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/userManage/userManage_export.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +164,17 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1661348250057">

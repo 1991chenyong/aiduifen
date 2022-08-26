@@ -133,6 +133,7 @@ class RequestUtil(object):
                         self.result_validate(yq_result=yq_result, real_result=res.json(), status_code=status_code)
                         # 提取变量
                         self.analysic_extract(testcase_info, res)
+                        return res.json()
                 else:
                     print("request必须包含二级关键字：url、method!")
             else:

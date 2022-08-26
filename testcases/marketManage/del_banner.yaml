@@ -1,0 +1,10 @@
+- name: 删除banner接口
+  parameters:
+    id: "data/marketManage_del_banner.csv"
+  request:
+    method: POST
+    url: /superAdmin/banner-manager/delete-banner-row
+    params: {"t": "{{t}}"}
+    data: {"id": "$csv{id}"}
+  validate:
+    - equals: {return_code: "SUCCESS"}

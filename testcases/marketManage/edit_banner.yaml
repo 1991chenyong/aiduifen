@@ -1,0 +1,8 @@
+- name: 编辑标签接口
+  request:
+    method: POST
+    url: /superAdmin/banner-manager/update-banner-row
+    params: {"t": "{{t}}"}
+    data:
+  validate:
+    - equals: {return_code: "SUCCESS"}

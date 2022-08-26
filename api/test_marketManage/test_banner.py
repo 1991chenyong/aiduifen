@@ -43,3 +43,25 @@ class TestUser:
     def test_search_banenr(self, testcases_info):
         allure.dynamic.title(testcases_info["name"])
         RequestUtil().analysis_yaml(testcases_info)
+
+    @allure.story("编辑banner测试用例")
+    @pytest.mark.run(order=4)
+    @pytest.mark.parametrize('testcases_info', read_testcase_yaml('testcases/marketManage/detail_banner.yaml'))
+    def test_edit_banner(self, testcases_info):
+        allure.dynamic.title(testcases_info["name"])
+        edit_banner_test_data = read_testcase_yaml('testcases/marketManage/edit_banner.yaml')
+        detail_banner_data = RequestUtil().analysis_yaml(testcases_info)
+        print("detail_banner_data==", detail_banner_data)
+        del detail_banner_data["return_msg"]["createdAt"]
+        del detail_banner_data["return_msg"]["updatedAt"]
+        edit_banner_test_data["request"]["data"] = detail_banner_data["return_msg"]
+        print("edit_banner_test_data==", edit_banner_test_data)
+        RequestUtil().analysis_yaml(edit_banner_test_data)
+
+    @pytest.mark.skip("删除banner测试用例跳过")
+    @allure.story("删除banner测试用例")
+    @pytest.mark.run(order=5)
+    @pytest.mark.parametrize('testcases_info', read_testcase_yaml('testcases/marketManage/del_banner.yaml'))
+    def test_del_banner(self, testcases_info):
+        allure.dynamic.title(testcases_info["name"])
+        RequestUtil().analysis_yaml(testcases_info)
