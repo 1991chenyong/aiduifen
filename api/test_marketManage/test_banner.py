@@ -49,13 +49,17 @@ class TestUser:
     @pytest.mark.parametrize('testcases_info', read_testcase_yaml('testcases/marketManage/detail_banner.yaml'))
     def test_edit_banner(self, testcases_info):
         allure.dynamic.title(testcases_info["name"])
-        edit_banner_test_data = read_testcase_yaml('testcases/marketManage/edit_banner.yaml')
+        # 获取编辑banner用例
+        edit_banner_test_data = read_testcase_yaml('testcases/marketManage/edit_banner.yaml')[0]
+        # 获取banner的详情数据，用于补充编辑接口请求数据
         detail_banner_data = RequestUtil().analysis_yaml(testcases_info)
-        print("detail_banner_data==", detail_banner_data)
+        # 编辑设置banner开启状态为0
+        detail_banner_data["return_msg"]["bannerStatus"] = 0
+        # 将banner详情数据的不需要字段剔除
         del detail_banner_data["return_msg"]["createdAt"]
         del detail_banner_data["return_msg"]["updatedAt"]
+        # 设置编辑banner接口的请求数据
         edit_banner_test_data["request"]["data"] = detail_banner_data["return_msg"]
-        print("edit_banner_test_data==", edit_banner_test_data)
         RequestUtil().analysis_yaml(edit_banner_test_data)
 
     @pytest.mark.skip("删除banner测试用例跳过")
