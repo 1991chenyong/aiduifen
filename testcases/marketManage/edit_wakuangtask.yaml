@@ -1,0 +1,8 @@
+- name: "获取挖矿任务数据接口"
+  request:
+    url: /superAdmin/task-center/task-save
+    method: POST
+    params: {"t": "{{t}}"}
+    data:
+  validate:
+    - equals: {return_code: "SUCCESS"}
