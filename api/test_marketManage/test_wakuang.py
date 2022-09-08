@@ -28,6 +28,7 @@ class TestWakuang:
         allure.dynamic.title(testcase_info["name"])
         RequestUtil().analysis_yaml(testcase_info)
 
+    @pytest.mark.skip("获取挖矿任务详情测试用例跳过")
     @allure.story("获取挖矿任务详情测试用例")
     @pytest.mark.run(order=2)
     @pytest.mark.parametrize('testcase_info', read_testcase_yaml('testcases/marketManage/get_wakuangtask_detail.yaml'))
@@ -37,11 +38,5 @@ class TestWakuang:
         # 循环编辑四个挖矿任务
         for i in range(0, len(task_detail["return_msg"]["taskList"])):
             edit_testcase_info = read_testcase_yaml('testcases/marketManage/edit_wakuangtask.yaml')[0]
-            print("edit_testcase_info===", edit_testcase_info)
             edit_testcase_info["request"]["data"] = task_detail["return_msg"]["taskList"][i]
             RequestUtil().analysis_yaml(edit_testcase_info)
-
-
-
-
-

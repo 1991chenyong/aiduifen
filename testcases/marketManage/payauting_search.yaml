@@ -1,0 +1,16 @@
+- name : "支付审核列表搜索用例"
+  request:
+    url: /superAdmin/pay-audit/get-list
+    method: GET
+    params:
+      {
+        "t": "{{t}}",
+        "page": 0,
+        "pagesize": 20,
+        "searchStr": "18599936516",
+        "searchKey": "mobile",
+        "status": 1,
+        "isExport": 0
+      }
+  validate:
+    - equals: {return_code: "SUCCESS"}

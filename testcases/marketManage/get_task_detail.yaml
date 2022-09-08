@@ -1,0 +1,7 @@
+- name: "获取每日任务配置页面数据"
+  request:
+    url: /superAdmin/task-center/task-list
+    method: GET
+    params: {"t": "{{t}}", "category": 2}
+  validate:
+    - equals: {return_code: "SUCCESS"}

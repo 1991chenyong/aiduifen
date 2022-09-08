@@ -1,4 +1,4 @@
-- name: "编辑挖矿任务数据接口"
+- name: "编辑每日任务数据接口"
   request:
     url: /superAdmin/task-center/task-save
     method: POST
