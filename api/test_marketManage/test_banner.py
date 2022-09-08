@@ -18,7 +18,7 @@ import time
 
 @allure.epic("爱兑分后台自动化接口项目")
 @allure.feature("营销模块测试")
-class TestUser:
+class TestBanner:
 
     @pytest.mark.skip("进入创建banner接口跳过")
     @allure.story("进入创建banner测试用例")
@@ -44,6 +44,7 @@ class TestUser:
         allure.dynamic.title(testcases_info["name"])
         RequestUtil().analysis_yaml(testcases_info)
 
+    @pytest.mark.skip("编辑banner接口跳过")
     @allure.story("编辑banner测试用例")
     @pytest.mark.run(order=4)
     @pytest.mark.parametrize('testcases_info', read_testcase_yaml('testcases/marketManage/detail_banner.yaml'))

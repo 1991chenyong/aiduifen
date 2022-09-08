@@ -1,0 +1,15 @@
+- name: "挖矿数据列表搜索"
+  request:
+    url: /superAdmin/nft-analysis/mining-user-statistics-list
+    method: GET
+    params:
+      {
+        "t": "{{t}}",
+        "nickname": ,
+        "startAt": "2022-07-30",
+        "endAt": "2022-08-29",
+        "pageSize": 20,
+        "page": 0
+      }
+  validate:
+    - equals: {return_code: "SUCCESS"}

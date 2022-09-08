@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f322339-ee6f-4de7-add5-6f5ae1600bee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/test_marketManage/test_wakuang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/marketManage/edit_wakuangtask.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/marketManage/get_wakuangtask_detail.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/marketManage/search_list.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aiduifen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aiduifen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/test_marketManage/test_banner.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/test_marketManage/test_banner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/extract.yaml" afterDir="false" />
+>>>>>>> 5e7ede53f8148c100fd48e3bbc91755c063dbd3a
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +52,7 @@
       <recent name="H:\aiduifen\testcases" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -46,6 +66,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.aiduifen">
+=======
+  <component name="RunManager" selected="Python.all">
+>>>>>>> 5e7ede53f8148c100fd48e3bbc91755c063dbd3a
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="aiduifen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,13 +153,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.aiduifen" />
+      <item itemvalue="Python.all" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.all" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -165,6 +192,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1661348250057">
@@ -175,25 +203,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1661348217616" />
-    <state width="1899" height="330" key="GridCell.Tab.0.bottom" timestamp="1661352344955">
+    <state width="1899" height="330" key="GridCell.Tab.0.bottom" timestamp="1661785697316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1661352344955" />
-    <state width="1899" height="330" key="GridCell.Tab.0.center" timestamp="1661352344955">
+    <state width="1899" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1661785697316" />
+    <state width="1899" height="330" key="GridCell.Tab.0.center" timestamp="1661785697315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1661352344955" />
-    <state width="1899" height="330" key="GridCell.Tab.0.left" timestamp="1661352344955">
+    <state width="1899" height="330" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1661785697315" />
+    <state width="1899" height="330" key="GridCell.Tab.0.left" timestamp="1661785697311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1661352344954" />
-    <state width="1899" height="330" key="GridCell.Tab.0.right" timestamp="1661352344955">
+    <state width="1899" height="330" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1661785697311" />
+    <state width="1899" height="330" key="GridCell.Tab.0.right" timestamp="1661785697315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1661352344955" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1661350380934">
+    <state width="1899" height="330" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1661785697315" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1661779671763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1661350380934" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1661779671763" />
   </component>
 </project>
