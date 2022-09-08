@@ -34,27 +34,14 @@ class TestWakuang:
     def test_wakuangtask_detail(self, testcase_info):
         allure.dynamic.title(testcase_info["name"])
         task_detail = RequestUtil().analysis_yaml(testcase_info)
-        print("task_detail====", task_detail["return_msg"]["taskList"][0])
-        task_data_0 = task_detail["return_msg"]["taskList"][0]
-        task_data_1 = task_detail["return_msg"]["taskList"][1]
-        task_data_2 = task_detail["return_msg"]["taskList"][2]
-        task_data_3 = task_detail["return_msg"]["taskList"][3]
-        print("task_data_0=====", task_data_0)
-        edit_testcase_info = read_testcase_yaml('testcases/marketManage/edit_wakuangtask.yaml')[0]
-        print("edit_testcase_info======", edit_testcase_info)
-        edit_testcase_info["request"]["data"] = task_data_0
-        edit_testcase_info_0 = edit_testcase_info
-        edit_testcase_info["request"]["data"] = task_data_1
-        edit_testcase_info_1 = edit_testcase_info
-        edit_testcase_info["request"]["data"] = task_data_2
-        edit_testcase_info_2 = edit_testcase_info
-        edit_testcase_info["request"]["data"] = task_data_3
-        edit_testcase_info_3 = edit_testcase_info
-        print("edit_testcase_info_0===", edit_testcase_info_0)
-        RequestUtil().analysis_yaml(edit_testcase_info_0)
-        RequestUtil().analysis_yaml(edit_testcase_info_1)
-        RequestUtil().analysis_yaml(edit_testcase_info_2)
-        RequestUtil().analysis_yaml(edit_testcase_info_3)
+        # 循环编辑四个挖矿任务
+        for i in range(0, len(task_detail["return_msg"]["taskList"])):
+            edit_testcase_info = read_testcase_yaml('testcases/marketManage/edit_wakuangtask.yaml')[0]
+            print("edit_testcase_info===", edit_testcase_info)
+            edit_testcase_info["request"]["data"] = task_detail["return_msg"]["taskList"][i]
+            RequestUtil().analysis_yaml(edit_testcase_info)
+
+
 
 
 
