@@ -128,7 +128,7 @@ class RequestUtil(object):
                         self.analysic_text_extract(testcase_info, res)
                     else:
                         write_log("------------------默认返回的响应结果是字典，调用result_validate方法断言-------------------")
-                        print('这是返回的数据' % res.json())
+                        # print('这是返回的数据' % res.json())
                         # 如果返回的响应结果是字典，则调用result_validate方法断言
                         self.result_validate(yq_result=yq_result, real_result=res.json(), status_code=status_code)
                         # 提取变量

@@ -1,6 +1,6 @@
 # _*_ coding:utf-8 _*-
 # 作者：陈勇
-# @Time: 2022/8/18
+# @Time: 2022/09/08
 # @Email:775375798@qq.com
 # @File: test_banner.py
 
@@ -17,7 +17,7 @@ import allure
 class TestPayaudting:
 
     @pytest.mark.run(ording=1)
-    # @pytest.mark.skip("支付审核列表搜索用例跳过")
+    @pytest.mark.skip("支付审核列表搜索用例跳过")
     @allure.story("支付审核列表搜索功能测试用例")
     @pytest.mark.parametrize('testcase_info', read_testcase_yaml('testcases/marketManage/payauting_search.yaml'))
     def test_payauting_search(self, testcase_info):
