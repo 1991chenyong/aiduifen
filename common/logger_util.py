@@ -1,10 +1,11 @@
 import logging
 import time
-
+import os
 import common.common_util as common_util
 
 
 class LoggerUtil(object):
+
     def create_log(self, logger_name=None):
         # 创建一个logger对象
         self.logger = logging.getLogger(logger_name)
@@ -12,10 +13,9 @@ class LoggerUtil(object):
         self.logger.setLevel(logging.DEBUG)
         # 判断日志器中是否存在控制器
         if not self.logger.handlers:
-            # print("----------文件日志-------------")
             # 设置file日志文件的路径
             self.log_file_path = common_util.get_path() + "logs/" + common_util.read_config_yaml('log', 'log_name') + \
-                                 f'{time.strftime("%Y.%m.%d.%H.%M.%S",time.localtime())}' + '.log'
+                                 f'{time.strftime("%Y.%m.%d",time.localtime())}' + '.log'
             # 创建file日志的控制器
             self.file_handler = logging.FileHandler(self.log_file_path, encoding='utf8')
             # 单独的设置文件日志的级别
@@ -58,6 +58,10 @@ class LoggerUtil(object):
             # 将console日志的控制器加入日志对象
             self.logger.addHandler(self.console_handler)
         return self.logger
+
+    def remove_logger(self):
+        self.logger.removeFilter(self.file_handler)
+        self.logger.removeFilter(self.console_handler)
 
 
 #写入正常日志
