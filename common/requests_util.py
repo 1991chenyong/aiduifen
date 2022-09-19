@@ -298,6 +298,8 @@ class RequestUtil(object):
 
     # 处理关联取值
     def replace_value(self, value):
+        # 获取爱兑分测试数据字段值
+        aiduifen_config_keys = common_util.read_config_keys_yaml('test_data')
         if value and isinstance(value, dict):
             str = json.dumps(value)
         else:
@@ -309,7 +311,10 @@ class RequestUtil(object):
                 old_value = str[index_start:index_end + 2]
                 # print("old_value= ", old_value)
                 key_value = old_value[2:-2]
-                new_value = common_util.read_extract_yaml(key_value)
+                if key_value in aiduifen_config_keys:
+                    new_value = common_util.read_config_yaml('test_data', 'appVerTitle')
+                else:
+                    new_value = common_util.read_extract_yaml(key_value)
                 # print("new_value= ", new_value)
                 str = str.replace(old_value, new_value)
                 #　print("str=====", str)

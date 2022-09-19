@@ -1,1 +1,67 @@
-- name
+- name: 创建升级强制提示接口
+  request:
+    url: /superAdmin/app-version/save-app-version
+    method: POST
+    params: {"t": "{{t}}"}
+    data:
+      {
+        "_id": ,
+        "type": 1,
+        "appVerTitle": "{{appVerTitle}}",
+        "updateInfo": "升级提示测试",
+        "forceUpdate": 1,
+        "appVer": "1.1.0"
+      }
+  validate:
+    - equals: {return_code: "SUCCESS"}
+
+- name: 创建升级非强制提示接口
+  request:
+    url: /superAdmin/app-version/save-app-version
+    method: POST
+    params: {"t": "{{t}}"}
+    data:
+      {
+        "_id": ,
+        "type": 1,
+        "appVerTitle": "{{appVerTitle}}",
+        "updateInfo": "升级提示测试",
+        "forceUpdate": 0,
+        "appVer": "1.1.0"
+      }
+  validate:
+    - equals: {return_code: "SUCCESS"}
+
+- name: 创建更新强制提示接口
+  request:
+    url: /superAdmin/app-version/save-app-version
+    method: POST
+    params: {"t": "{{t}}"}
+    data:
+      {
+        "_id": ,
+        "type": 2,
+        "appVerTitle": "{{appVerTitle}}",
+        "updateInfo": "升级提示测试",
+        "forceUpdate": 1,
+        "appVer": "1.1.0"
+      }
+  validate:
+    - equals: {return_code: "SUCCESS"}
+
+- name: 创建更新非强制提示接口
+  request:
+    url: /superAdmin/app-version/save-app-version
+    method: POST
+    params: {"t": "{{t}}"}
+    data:
+      {
+        "_id": ,
+        "type": 2,
+        "appVerTitle": "{{appVerTitle}}",
+        "updateInfo": "升级提示测试",
+        "forceUpdate": 0,
+        "appVer": "1.1.0"
+      }
+  validate:
+    - equals: {return_code: "SUCCESS"}

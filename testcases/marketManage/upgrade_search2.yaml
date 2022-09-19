@@ -1,11 +1,11 @@
-- name: "升级提示列表搜索测试用例"
+- name: "更新提示列表搜索测试用例"
   request:
     url: /superAdmin/app-version/app-version-list
     method: GET
     params:
       {
         "t": "{{t}}",
-        "type": 1,
+        "type": 2,
         "page": 0
       }
   validate:

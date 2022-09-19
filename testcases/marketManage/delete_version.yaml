@@ -1,0 +1,7 @@
+- name: 删除升级提示接口
+  request:
+    url: /superAdmin/app-version/app-version-del
+    method: GET
+    params: {"t": "{{t}}", "_id": "{{_id}}"}
+  validate:
+    - equals: {return_msg: 1}
